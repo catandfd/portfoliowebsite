@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Coded by Rex, Teddy and Dickson -->
+
+<head>
+  <title>Alex Smith's iPortfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./img/favicon.png">
+  <script type="text/javascript" src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesome -->
+  <script src="https://kit.fontawesome.com/cd897b0f6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="flex_container">
+    <div class="flex_row">
+      <!-- Rex: Profile, Nav Bars and Cover  -->
+      <div id="profile_col" class="flex_column left_column">
+        <div>
+          <img id="profile_img" src="./img/profile-img.jpg">
+          <br>
+          <h3>Alex Smith</h3>
+          <div>
+            <a href="#"><img class="icons" src="./img/facebook.png"></a>
+            <a href="#"><img class="icons" src="./img/telegram.png"></a>
+            <a href="#"><img class="icons" src="./img/whatsapp.png"></a>
+            <a href="#"><img class="icons" src="./img/email.png"></a>
+            <a href="#"><img class="icons" src="./img/link.png"></a>
+          </div>
+          <div class="menu">
+            <a class="menu_btn" href="#">Home</a>
+            <a class="menu_btn" href="#about">About</a>
+            <a class="menu_btn" href="#resume">Resume</a>
+            <a class="menu_btn" href="#portfolio">Portfolio</a>
+            <a class="menu_btn" href="#service">Services</a>
+            <a class="menu_btn" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <div id="right_column" class="flex_column">
+        <img id="hero_bg" src="./img/hero-bg.jpg">
+        <div class="heading_text">
+          <h1 id="name">Alex Smith</h1>
+          <p id="summary">I am a <span id="app"></span></p>
+        </div>
+
+        <!--teddy: About-->
+        <section id="about" class="flex_column">
+          <h2 class="titles">About</h2>
+          <p class="section-heading">Meticulous web developer with over 2 years of front end experience and passion for
+            responsive website
+            design and a firm believer in the mobile-first approach. W3C certified. Implemented new responsive
+            website approach which increased mobile traffic by 20%.</p>
+
+          <div class="about-descript flex_row">
+            <div class="about-left">
+              <img id="about-pic" src="./img/profile-img.jpg">
+              <br>
+            </div>
+            <div class="about-right">
+              <h3 class="titles">UI/UX Designer & Web Developer.</h3>
+              <p class="section-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua.</p>
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Birthday:</span> 1 May 1995
+                  </div>
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Age:</span> 30
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Website:</span> www.google.com
+                  </div>
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Degree:</span> Master
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Phone:</span> +123 456 789
+                  </div>
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Email:</span> alex@gmail.com
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      City:</span> New York, USA
+                  </div>
+                  <div class="col-sm-12 col-md-6 p-2"><i class="fa-solid fa-angle-right"></i><span class="bold">
+                      Freelance:</span> Available
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br>
+          <div class="skill-descript">
+            <h2 class="titles">Skills</h2>
+            <p class="section-heading">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+              doloremque laudantium, totam
+              rem
+              aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+              explicabo.
+            </p>
+            <div class="container-lg d-flex flex-wrap">
+              <!-- skillset left container -->
+              <div class="col-sm-12 col-md-6">
+                <div class="flex-row flex-column p-3">
+                  <div class="d-flex justify-content-between">
+                    <span>HTML</span><span>100%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 100%"
+                      aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  </div>
+                </div>
+                <div class="flex-row flex-column p-3">
+                  <div class="d-flex justify-content-between">
+                    <span>CSS</span><span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%"
+                      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  </div>
+                </div>
+                <div class="flex-row flex-column p-3">
+                  <div class="d-flex justify-content-between">
+                    <span>JAVASCRIPT</span><span>75%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 75%"
+                      aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  </div>
+                </div>
+              </div>
+              <!-- skillset right container -->
+              <div class="col-sm-12 col-md-6">
+                <div class="flex-row flex-column p-3">
+                  <div class="d-flex justify-content-between">
+                    <span>PHP</span><span>80%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%"
+                      aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  </div>
+                </div>
+                <div class="flex-row flex-column p-3">
+                  <div class="d-flex justify-content-between">
+                    <span>WORDPRESS/CMS</span><span>90%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%"
+                      aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  </div>
+                </div>
+                <div class="flex-row flex-column p-3">
+                  <div class="d-flex justify-content-between">
+                    <span>PHOTOSHOP</span><span>55%</span>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 55%"
+                      aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <br>
+        <!--https://www.w3schools.com/howto/howto_css_timeline.asp
+Resume可以用上述網站例子去做-->
+        <!-- Rex and Dickson: Resume -->
+        <section id="resume">
+          <h2 class="titles">Resume</h2>
+          <p class="section-heading">Developed frontend web developemnt skills including HTML5, CSS, JavaScript,
+            Bootstrap and React in past 5
+            years. </p>
+          <div class="resume_container">
+            <div class="resume_col">
+              <h3>Summary</h3>
+              <div class="resume_row">
+                <div class="resume_box">
+                  <div class="circle"></div>
+                  <h6>ALEX SMITH</h6>
+                  <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
+                      developing user-centered digital/print marketing material form intial concept to final, polished
+                      deliverable. </em></p>
+                  <ul>
+                    <li>Portland par 127, Orlando, FL</li>
+                    <li>(123) 456-7891</li>
+                    <li>alice.barkley<p class="break"><br></p>@example.com</li>
+                  </ul>
+                </div>
+              </div>
+              <h3>Education</h3>
+              <div class="resume_row">
+                <div class="resume_box">
+                  <div class="circle"></div>
+                  <h6>MASTER OF FINE ARTS & GRAPHIC DESIGN</h6>
+                  <p><mark>2015-2016</mark></p>
+                  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                  <p>Developed aesthetic values including composition, colour theory and mood as well as basic
+                    concepts of key frames and in-betweens which are transferable to frontend web design and web
+                    animation development</p>
+                  <h6>BACHELOR OF FINE ARTS & GRAPHIC DESIGN</h6>
+                  <p><mark>2010-2014</mark></p>
+                  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
+                  <p>Developed theories of design principles and visual elements as well as implementation in fine
+                    art and design. </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="resume_col">
+              <h3>Professional Experience</h3>
+              <div class="resume_row">
+                <div class="resume_box">
+                  <div class="circle"></div>
+                  <h6>SENIOR GRAPIC DESIGN SPECIALIST</h6>
+                  <p><mark>2019 - Present</mark></p>
+                  <p><em>Experion, New York, NY</em></p>
+                  <ul>
+                    <li>Lead in the design, development, and implementation of the graphic, layout, and production
+                      communication materials</li>
+                    <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the
+                      project. </li>
+                    <li>Supervise the assessment of all graphic materials in order to ensure quality an accuracy of
+                      the design</li>
+                    <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000. </li>
+                  </ul>
+                  <h6>GRAPHIC DESIGN SPECIALIST</h6>
+                  <p><mark>2017 - 2018</mark></p>
+                  <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                  <ul>
+                    <li>Developed numerous marketing programs (logos, brochures, infographics, presentations, and
+
+                      advertisements). </li>
+                    <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
+                    <li>Recommended and consulted with clients on the most appropriate graphic design</li>
+                    <li>Created 4+ design presentations and proposals a month for clients and account managers</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+        <!--teddy: Portfolio-->
+        <section id="portfolio">
+          <h2 class="titles">Portfolio</h2>
+          <div class="container-lg">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+              <div class="col p-3">
+                <!-- <div class="img-container"> -->
+                <img src="./img/portfolio/portfolio-1.jpg" class="img-fluid">
+                <!-- <div class="overlay">
+                    <p class="caption">Click Me</p>
+                  </div>
+              </div> -->
+              </div>
+              <div class="col p-3">
+                <img src="./img/portfolio/portfolio-2.jpg" class="img-fluid">
+              </div>
+              <div class="col p-3">
+                <img src="./img/portfolio/portfolio-3.jpg" class="img-fluid">
+              </div>
+            </div>
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3">
+              <div class="col p-3">
+                <img src="./img/portfolio/portfolio-4.jpg" class="img-fluid">
+              </div>
+              <div class="col p-3">
+                <img src="./img/portfolio/portfolio-5.jpg" class="img-fluid">
+              </div>
+              <div class="col p-3">
+                <img src="./img/portfolio/portfolio-6.jpg" class="img-fluid">
+              </div>
+            </div>
+        </section>
+        <br>
+        <!-- Rex: Service -->
+        <section id="service">
+          <h2 class="titles">Service</h2>
+          <p class="section-heading">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+            veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse.</p>
+
+          <div class="service_row">
+            <div class="service_item">
+              <img src="./img/woman.png" width="50px" height="50px" class="service_icons">
+              <div class="ser_text">
+                <h6>Culpa Duis</h6>
+                <p>quem legam fore sunt eram irure aliqua veniam tempor noster</p>
+              </div>
+            </div>
+            <div class="service_item">
+              <img src="./img/linkedin.png" width="50px" height="50px" class="service_icons">
+              <div class="ser_text">
+                <h6>Gener Sleve</h6>
+                <p>Sunulpe labore duis sunt culpa nulla illum cillum fugiat legam esse</p>
+              </div>
+            </div>
+            <div class="service_item">
+              <img src="./img/address.jpg" width="50px" height="50px" class="service_icons">
+              <div class="ser_text">
+                <h6>Delpete House</h6>
+                <p>Irure aliqua veniam tempor noster
+                  veniam enim culpa labore du</p>
+              </div>
+            </div>
+            <div class="service_item">
+              <img src="./img/audio.png" width="50px" height="50px" class="service_icons">
+              <div class="ser_text">
+                <h6>Head Phone</h6>
+                <p>Liqua sint quem legam fore sunt eram irure aliqua</p>
+              </div>
+            </div>
+            <div class="service_item">
+              <img src="./img/board.png" width="50px" height="50px" class="service_icons">
+              <div class="ser_text">
+                <h6>Case Develop</h6>
+                <p>Elegam fore sunt eram irure aliquaqua sint am irure aliqua</p>
+              </div>
+            </div>
+            <div class="service_item">
+              <img src="./img/cv.png" width="50px" height="50px" class="service_icons">
+              <div class="ser_text">
+                <h6>Menfer Gerder</h6>
+                <p>A labore duis sunt culpa nulla illum cillum fugiat legam</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br>
+
+        <!--dickson-->
+        <section id="testimonials">
+          <div class="row d-flex justify-content-center" >
+            <div class="col-md-10 col-xl-8 text-center" style="position: absolute; left:280px; padding-top: 90px;">
+              <h4 class="mb-4">Testimonials</h4>
+              <span></span>
+              <!-- <p class="mb-4 pb-2 mb-md-5 pb-md-0"> -->
+              <p>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam.</p>
+            </div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-md-4 mb-5 mb-md-0">
+              <div class="d-flex justify-content-center mb-4">
+                <p class="px-xl-3">
+                  <i class="fas fa-quote-left pe-2"></i>Enim nisi quem export duis labore cillum quae magna enim sint
+                  quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint
+                  minim
+
+
+                </p>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                  class="rounded-circle shadow-1-strong" width="80" height="80" />
+              </div>
+              <h3 class="mb-3">Jena Karlis</h3>
+              <h5 class="text-primary mb-3">Store Owner</h5>
+
+            </div>
+
+            <div class="col-md-4 mb-5 mb-md-0 Lisa">
+              <div class="d-flex justify-content-center mb-4">
+                <p class="px-xl-3">
+                  <i class="fas fa-quote-left pe-2"></i>Fugiat enim eram quae cillum dolore dolore amet nulla culpa
+                  multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore
+                  quem dolore labore illum veniam.
+                </p>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                  class="rounded-circle shadow-1-strong" width="80" height="80" />
+              </div>
+              <h3 class="mb-3">Matt Brandon</h3>
+              <h5 class="text-primary mb-3">Freelancer</h5>
+
+            </div>
+
+            <div class="col-md-4 mb-0">
+              <div class="d-flex justify-content-center mb-4">
+                <p class="px-xl-3">
+                  <i class="fas fa-quote-left pe-2"></i>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua
+                  veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse
+                  veniam culpa fore nisi cillum quid.
+                </p>
+                <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                  class="rounded-circle shadow-1-strong" width="80" height="80" />
+              </div>
+              <h3 class="mb-3">John Larson</h3>
+              <h5 class="text-primary mb-3">Entrepreneur</h5>
+
+            </div>
+          </div>
+
+          <div class="w3-border">
+            <div class="w3-grey" style="height:240px;width:205px"></div>
+          </div>
+        </section>
+
+        <br>
+        <!-- Rex: Contact -->
+        <div>
+          <h2 id="contact" class="titles">Contact</h2>
+          <p class="section-heading">Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster
+            veniam enim culpa
+            labore duis sunt culpa nulla illum cillum fugiat legam esse.</p>
+          <div class="contact_row">
+            <div class="contact_box">
+              <h4><b>Email: </b></h4>
+              <p>info@example.com</p>
+              <h4><b>Call: </b></h4>
+              <p>+1 5589 55488 55s</p>
+              <h4><b>Location: </b></h4>
+              <p>A108 Adam Street, New York, NY S35022</p>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14769.688079231651!2d114.1302279!3d22.2619981!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403ffee35af3037%3A0x289fb0f444906fa2!2z5pW456K85riv!5e0!3m2!1szh-TW!2shk!4v1682642830935!5m2!1szh-TW!2shk"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <form class="contact_box">
+              <div class="msg_row">
+                <div class="msg_item"><label for="msg_name">Your Name</label><br><input type="text" id="msg_name"
+                    name="msg_name"></div>
+                <div class="msg_item"><label for="msg_email">Your Email</label><br><input type="text" id="msg_email"
+                    name="msg_email">
+                </div>
+                <div id="subject" class="msg_item"><label for="msg_subject">Subject</label><br><input type="text"
+                    id="msg_subject" name="msg_subject"></div>
+              </div>
+              <div id="msg_message" class="msg_item"><label for="msg_message">Message</label><br><textarea
+                  id="msg_message" name="msg_message" rows="4" cols="20"></textarea></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rex: Footer -->
+  <footer>
+    <center>© Coded by Rex, Teddy, Dickson | Last Motified: 2023/4/28</center>
+  </footer>
+  <!-- Rex: Top-up Button -->
+  <div class="top_btn" onclick="location.href='#';">↑</div>
+
+  <!-- typewriter script, do not edit -->
+  <script type="text/javascript">
+    var app = document.getElementById('app');
+    var typewriter = new Typewriter(app, {
+      loop: true
+    });
+    typewriter.typeString('<span style="text-decoration: underline 2px lightblue; ">frontend web developer.</span>')
+      .pauseFor(2500)
+      .deleteAll()
+      .typeString('designer.')
+      .pauseFor(2500)
+      .deleteAll()
+      .typeString('<em>slasher.</em>')
+      .pauseFor(2500)
+      .start();
+  </script>
+</body>
+
+</html>
